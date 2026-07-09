@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-banner.png" width="100%" alt="Ardita Demolli Banner">
+  <img src="./assets/profile-banner.png" width="100%" alt="Ardita Demolli">
 </p>
 
 
