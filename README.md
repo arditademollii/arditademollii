@@ -5,43 +5,20 @@
 
 
 ```javascript
-const ardita = {
-  role: "Software Engineer",
-  education: "Software Engineering Student",
+const technologies = [
+  "Java",
+  "React",
+  ".NET Web API",
+  "Node.js",
+  "PHP",
+  "MySQL",
+  "MongoDB",
+  "Tailwind CSS"
+];
 
-  strengths: [
-    "Full Stack Development",
-    "Clean Code",
-    "Problem Solving",
-    "Responsive UI"
-  ],
-
-  frontend: [
-    "React",
-    "Tailwind CSS",
-    "Bootstrap"
-  ],
-
-  backend: [
-    "Java",
-    ".NET Web API",
-    "Node.js",
-    "PHP"
-  ],
-
-  databases: [
-    "MySQL",
-    "SQL Server",
-    "MongoDB"
-  ],
-
-  currentlyLearning: [
-    "Cloud",
-    "Docker",
-    "CI/CD"
-  ],
-
-  mission:
-    "Build software that is fast, scalable and enjoyable to use."
-};
+for (const tech of technologies) {
+    learn(tech);
+    buildProjects(tech);
+    improveEveryDay();
+}
 ```
